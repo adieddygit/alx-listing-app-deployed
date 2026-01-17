@@ -13,7 +13,7 @@ const PropertyCard: React.FC<PropertyCardProps> = ({ property }) => {
       <div className="border rounded-lg shadow-md p-4 cursor-pointer hover:shadow-lg transition-shadow duration-300 bg-white">
         {/* Property Image */}
         <Image
-          src={property.imageUrl || "/assets/images/hero.jpg"}
+          src={"/assets/images/image19.png"}
           alt={property.title}
           width={600}
           height={240}

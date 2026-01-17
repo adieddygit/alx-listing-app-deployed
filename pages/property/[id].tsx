@@ -26,12 +26,12 @@ export default function PropertyDetailPage() {
   }, [id]);
 
   if (loading) {
-    return <p>Loading...</p>;
+    return <p>Loading...</p>
   }
 
   if (!property) {
-    return <p>Property not found</p>;
+    return <p>Property not found</p>
   }
 
-  return <PropertyDetail property={property} />;
+  return <PropertyDetail property={property} />
 }
